@@ -4,7 +4,7 @@ emoji: 🌍
 colorFrom: yellow
 colorTo: pink
 sdk: gradio
-sdk_version: 4.19.2
+sdk_version: 5.1.0
 app_file: gradio_imager.py
 pinned: false
 license: mit
