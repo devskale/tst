@@ -37,7 +37,7 @@ def gradio_interface(image, standard_settings, crop=False, remove_bg=False, resi
     # Apply standard settings if selected and not "None"
     if image is None:
         # Load the standard image from the specified path if no image is uploaded
-        standard_image_path = './data/examples/supermario.png'
+        standard_image_path = 'https://f.uguu.se/FMSiaqYp.png'
         image = Image.open(standard_image_path)
 
     if standard_settings and standard_settings != "None":
@@ -68,14 +68,9 @@ def gradio_interface(image, standard_settings, crop=False, remove_bg=False, resi
 
 
 example_images = [
-    [os.path.join("data", "examples", "supermario.png"),
-     "S light", True, True, "480x420", 10, "whitesmoke"],
-    [os.path.join("data", "examples",
-                  "depositphotos_520707962-stock-photo-fujifilm-s10-body-black-fujifilm.jpg"), "None", True, True, "480x320", 48, "blue"],
-    [os.path.join("data", "examples", "batman_b_c_320x280_bg.png"),
-     "None", True, True, "360x360", 48, "yellow"],
-
-
+    ["https://f.uguu.se/FMSiaqYp.png", "S light", True, True, "480x420", 10, "whitesmoke"],
+    ["https://f.uguu.se/RKKYgeDC.png", "None", True, True, "480x320", 48, "blue"],
+    ["https://f.uguu.se/WMoKEkYc.png", "None", True, True, "360x360", 48, "yellow"],
 ]
 
 # Define the Gradio interface
