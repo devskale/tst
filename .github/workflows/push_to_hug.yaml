@@ -1,4 +1,4 @@
-name: Sync with Hugging Face Hub
+name: Sync Github to Hugging Face Hub
 
 on:
   push:
