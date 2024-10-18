@@ -11,7 +11,6 @@ jobs:
     steps:
     - name: Sync with Hugging Face
       uses: devskale/huggingface-sync-action@v1.1
-      with:
         github_repo_id: devskale/tst
         huggingface_repo_id: woodmastr/tst
         repo_type: space
